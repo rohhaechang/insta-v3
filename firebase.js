@@ -18,3 +18,7 @@ const firebaseConfig = {
 // Initialize Firebase
 // App이 없으면 App을 실행, 있으면 앱을 가져옴
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp()
+const db = getFirestore()
+const storage = getStorage()
+
+export { app, db, storage }
