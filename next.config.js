@@ -2,7 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['www.jennexplores.com', 'upload.wikimedia.org', 'w.namu.la'],
+    domains: [
+      'www.jennexplores.com',
+      'upload.wikimedia.org',
+      'w.namu.la',
+      'lh3.googleusercontent.com',
+    ],
   },
 }
 
